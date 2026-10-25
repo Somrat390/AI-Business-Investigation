@@ -1,0 +1,26 @@
+# Python virtual environments
+**/.venv/
+**/venv/
+
+# Python generated files
+**/__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Testing and tooling
+**/.pytest_cache/
+**/.ruff_cache/
+**/.coverage
+
+# Frontend dependencies and build output
+**/node_modules/
+**/dist/
+**/build/
+
+# IDE files
+.vscode/
+.idea/
